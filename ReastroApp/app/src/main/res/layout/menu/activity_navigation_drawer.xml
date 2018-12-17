@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:textColor="@color/colorAccent">
+        <item
+            android:id="@+id/nav_about"
+            android:textColor="@color/colorAccent"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_terms"
+            android:textColor="@color/colorAccent"
+            android:icon="@drawable/ic_not_interested_black_24dp"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/nav_logout"
+            android:textColor="@color/colorAccent"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="LOGOUT" />
+    </group>
+
+
+
+</menu>
